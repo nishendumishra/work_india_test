@@ -1,0 +1,40 @@
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .item-card {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .item-details {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .item-details h2 {
+    margin: 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .item-details p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .item-details p strong {
+    color: #333;
+  }
+  
